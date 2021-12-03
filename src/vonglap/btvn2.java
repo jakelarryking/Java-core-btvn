@@ -7,7 +7,7 @@ public class btvn2 {
         Scanner scan = new Scanner(System.in);
         System.out.println("Nhap so nguyen n");
         int n = scan.nextInt();
-        int sum = 0;
+        float sum = 0;
         for (int i = 1; i<=n;i=i+1){
             sum = sum + i;
         }

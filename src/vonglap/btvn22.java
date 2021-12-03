@@ -9,7 +9,7 @@ public class btvn22 {
         Scanner scan = new Scanner(System.in);
         System.out.println("Nhap so nguyen n");
         int n = scan.nextInt();
-        int sum = 0;
+        float sum = 0;
         int i = 1;
         while (i<=n){
             sum = sum + i;
@@ -17,6 +17,6 @@ public class btvn22 {
         }
         System.out.println("Tong la " + sum);
         float a = sum/n;
-        System.out.println("Trung binh la "+(sum/n));
+        System.out.println("Trung binh la "+ a);
     }
 }
